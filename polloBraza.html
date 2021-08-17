@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>  
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+            <div class="container">
+                <a href="index.html" class="navbar-brand"><img src="img/logo.png" width="100" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-5" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" aria-expanded="false" role="button" data-bs-toggle="dropdown" href="#">
+                          Menús
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#scrollspyHeading1 ">Pollos a la Braza</a></li>
+                          <li><a class="dropdown-item" href="#scrollspyHeading2">Comidas Criollas</a></li>
+                          <li><a class="dropdown-item" href="#scrollspyHeading3">Ceviches</a></li>
+                        </ul>
+                      </li>
+                      
+                    </ul>
+                  </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example text-center align-content-center" tabindex="0">
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-12 bg-white text-center">
+                        <h1>Menús</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+              <hr>
+            </div>
+            <h4 id="scrollspyHeading1">Pollo a la braza</h4>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-6">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4 align-self-center">
+                                <img src="img/pollo_brasaEntero.jpg" class="img-fluid" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">1 Pollo a la Braza </h5>
+                                  <p class="card-text">Un Rico pollo a la braza, con 1 porcion grande de papas, 1 ensalada grande + 1 gaseosa de 1 1/2 lt inka o coca cola  .</p>
+                                  <p class="card-text"><small class="text-muted">Tiempo estimado de entrega 15min</small></p>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        Plato Pequeño   S/15.00
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        Plato Grande   S/30.00
+                                    </label>
+                                  </div>
+                                  <div class="d-grid gap-2">
+                                    <button class="btn btn-primary" type="button">Agregar</button>
+                                  </div>
+                                 
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4 align-self-center">
+                                <img src="img/pollo_brasamedio.jpg" class="img-fluid rounded-start" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">1/2 Pollo a la Braza</h5>
+                                  <p class="card-text">Un Rico pollo a la braza, con 1 porcion mediana de papas, 1 ensalada mediana + 1 gaseosa de 1    lt inka o coca cola  .</p>
+                                  <p class="card-text"><small class="text-muted">Tiempo estimado de entrega 15min</small></p>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        Plato Pequeño   S/15.00
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        Plato Grande   S/30.00
+                                    </label>
+                                  </div>
+                                  <div class="d-grid gap-2">
+                                    <button class="btn btn-primary" type="button">Agregar</button>
+                                  </div>
+                                 
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+               
+            </div>
+            <hr>
+            <h4 id="scrollspyHeading2">Comida Criolla</h4>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-6">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4 align-self-center">
+                                <img src="img/secoChavelo.jpg" class="img-fluid" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Fuente Seco de Chavelo </h5>
+                                  <p class="card-text">600 gr de carne de res, acompañado de su rico majado de platano + 1 jarra de chicha morada .</p>
+                                  <p class="card-text"><small class="text-muted">Tiempo estimado de entrega 15min</small></p>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        Plato Pequeño   S/15.00
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        Plato Grande   S/30.00
+                                    </label>
+                                  </div>
+                                  <div class="d-grid gap-2">
+                                    <button class="btn btn-primary" type="button">Agregar</button>
+                                  </div>
+                                 
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4 align-self-center">
+                                <img src="img/causa2.jpeg" class="img-fluid rounded-start" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Causon de Pollo</h5>
+                                  <p class="card-text">Rica causa de pollo, incluye 1 Jarra de chicha morada + 2 kg de papa amarilla + 1/2 kg de pollo .</p>
+                                  <p class="card-text"><small class="text-muted">Tiempo estimado de entrega 15min</small></p>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        Plato Pequeño   S/15.00
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        Plato Grande   S/30.00
+                                    </label>
+                                  </div>
+                                  <div class="d-grid gap-2">
+                                    <button class="btn btn-primary" type="button">Agregar</button>
+                                  </div>
+                                 
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+               
+            </div>
+            <hr>
+            <h4 id="scrollspyHeading3">Ceviches</h4>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-6">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4 align-self-center">
+                                <img src="img/ceviche.jpg" class="img-fluid" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Fuente de Ceviche Norteño</h5>
+                                  <p class="card-text">Rico ceviche de congrio + cebolla morada + 1 Jarra de Chicha Morada + canchita + Sarandaja + choclito y su cremita de rocoto.</p>
+                                  <p class="card-text"><small class="text-muted">Tiempo estimado de entrega 15min</small></p>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        Plato Pequeño   S/15.00
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        Plato Grande   S/30.00
+                                    </label>
+                                  </div>
+                                  <div class="d-grid gap-2">
+                                    <button class="btn btn-primary" type="button">Agregar</button>
+                                  </div>
+                                 
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4 align-self-center">
+                                <img src="img/ceviche_mariscos.jpg" class="img-fluid rounded-start" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Fuente de Ceviche de Mariscos</h5>
+                                  <p class="card-text">Rico Ceviche de Mariscos,+ cebolla morada + 1 Jarra de Chicha Morada + canchita + Sarandaja + choclito y su cremita de rocoto.</p>
+                                  <p class="card-text"><small class="text-muted">Tiempo estimado de entrega 15min</small></p>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        Plato Pequeño   S/15.00
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        Plato Grande   S/30.00
+                                    </label>
+                                  </div>
+                                  <div class="d-grid gap-2">
+                                    <button class="btn btn-primary" type="button">Agregar</button>
+                                  </div>
+                                 
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+               
+            </div>
+          </div>
+    </main>
+       
+         
+
+
+<footer>
+  <div class="container-fluid btn-dark">
+     <div class="container pt-5">
+         <div class="row">
+              <div class="col-12 col-md-6 col-lg-6 text-light border border-li py-3">
+                  <div class="row">
+                      <div class="col-12 ubicacion">
+                          <div class="row">
+                              <div class="col-4 d-flex align-items-center justify-content-end">
+                                  <i class="bi bi-geo-alt-fill"></i>
+                              </div>
+                              <div class="col-8">
+                                  <p>Urb. Miraflores</p>
+                                  <h3>Castilla, Piura</h3>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-12 telefono">
+                          <div class="row">
+                              <div class="col-4 d-flex align-items-center justify-content-end">
+                                  <i class="bi bi-telephone-fill"></i>
+                              </div>
+                              <div class="col-8">
+                                  <p class="mt-3">987654321</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-12 correo">
+                          <div class="row">
+                              <div class="col-4 d-flex align-items-center justify-content-end">
+                                  <i class="bi bi-envelope-fill"></i>
+                              </div>
+                              <div class="col-8 mt-2">
+                                  <a class="text-decoration-none text-light"href="#" >webmaster@unp.edu.pe</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-6 text-light border border-li py-3">
+                  <div class="row">
+                      <div class="col-12 text-center">
+                          <h3>Sobre la Universidad</h3>
+                          <p>Somos una universidad pública, que goza de autonomía académica, económica y administrativa; genera y difunde conocimiento científico-tecnológico a la población estudiantil, brinda formación con responsabilidad social, humanista, que contribuya al desarrollo sostenible de la región y del p</p>
+                      </div>
+                      <div class="col-12 text-center">
+                          <i class="bi bi-facebook me-4"></i>
+                          <i class="bi bi-twitter"></i>
+                      </div>
+                  </div>
+                  
+              </div>
+              <div class="col-12 text-center text-light mt-1">
+                  <p>Copyright. Todos los derechos reservados.</p>
+              </div>
+          </div>
+     </div>
+      
+  </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

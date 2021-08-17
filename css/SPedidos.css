@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logout{
+    text-align: center;
+    width: 80px;
+    background: rgb(49, 49, 231);
+    color: #FFFF;
+    border-radius: 10px;
+}
